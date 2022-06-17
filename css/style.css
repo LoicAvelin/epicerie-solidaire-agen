@@ -1,7 +1,7 @@
-/* Récupération de la police */
+/* RECUPERATION DE LA POLICE */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
-/* Mise en place de la taille de la police pour la vue téléphone mobile et des variables pour les couleurs */
+/* MISE EN PLACE DE LA TAILLE DE LA POLICE POUR LA VUE TELEPHONE MOBILE ET DES VARIABLES DE COULEUR */
 :root {
     font-size: 12px;
     --primary: #3F681C; 
@@ -14,9 +14,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-/* Mise en forme de la partie header des pages */
+/* DEBUT HEADER */
 header {
-    background-color: var(--fourthly);
+    background: linear-gradient(var(--thirdly), var(--fourthly));
     display: flex;
     flex-direction: column;
 }
@@ -37,14 +37,14 @@ h1 {
 ul {
     padding: 0.7rem;
     list-style-type: none;
-    justify-items: center;
+    justify-content: center;
 }
 /* Enlever le soulignement des liens */
-a:link {
+header > nav > ul > li > a:link {
     text-decoration: none;
 }
 
-a {
+header > nav > ul > li > a {
     color: var(--thirdly);
 }
 
@@ -57,3 +57,64 @@ li {
     font-weight: bold;
     padding: 1rem;
 }
+/* FIN HEADER */
+/* DEBUT MAIN */
+main {
+    padding: 0.5rem;
+    background-color: var(--secondary);
+}
+
+h2 {
+    border: solid 0.18rem;
+    border-radius: 6px;
+    color: var(--primary);
+    font-size: 1.75rem;
+    text-align: center;
+    padding: 0.6rem;
+    margin: 0.6rem;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+p {
+    text-align: center;
+    font-size: 1.6rem;
+    color: var(--fourthly);
+    padding: 0.7rem;
+}
+
+/* Lorsque l'utilisateur clique sur l'adresse dans le premier article, la redirection se fait avec un défilement plus lent */
+html {
+    scroll-behavior: smooth;
+}
+/* FIN MAIN */
+/* DEBUT FOOTER */
+footer {
+    padding: 1rem;
+    background: linear-gradient(var(--fourthly), var(--thirdly));
+}
+
+h3 {
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.75rem;
+    color: var(--thirdly);
+}
+
+footer > nav > ul > li > a:link {
+    text-decoration: none;
+}
+
+footer > nav > ul > li > a {
+    color: var(--secondary);
+}
+
+footer > p {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* FIN FOOTER */
