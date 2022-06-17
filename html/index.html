@@ -7,79 +7,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Il s'agit d'une épicerie solidaire sur Agen, située 717 avenue de Gaillard 47000 AGEN, dans le département du Lot-et-Garonne. Cette épicerie est une aide alimentaire et vestimentaire pour les familles et les personnes en difficulté. Venez-y faire un tour si vous en avez besoin. Vous serez servi par une équipe formidable avec le sourire, dans une ambiance chaleureuse et musicale.">
     <title>Une épicerie solidaire sur Agen, dans le département du Lot-et-Garonne 47000. Une aide alimentaire et vestimentaire pour les familles ou les personnes en difficulté.</title>
+    <!-- Récupérer la police d'écriture pour l'utiliser dans les fichiers css -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,300;1,400&display=swap" rel="stylesheet">
     <!-- Faire le lien avec la feuille css qui enlève le padding et le margin -->
     <link rel="stylesheet" href="../css/reset.css">
     <!-- Faire le lien avec la feuille css qui va mettre en forme la page -->
     <link rel="stylesheet" href="../css/style.css">
     <!-- Faire le lien avec la feuille css qui va rendre le site web responsive -->
     <link rel="stylesheet" href="../css/responsive.css">
+    <!-- rajouter un favicon à la page -->
+    <link rel="shortcut icon" type="image/png" href="../images/favicon-32x32.png"/>
 </head>
 <!-- FIN HEAD -->
 <!-- DEBUT BODY -->
 <body>
     <!-- DEBUT DU HEADER -->
     <header>
-        <div>
-            <h1><a href="index.html">Épicerie solidaire Agen</a></h1>
-        </div>
+        <h1><a class="logoLink" href="index.html">Épicerie solidaire Agen</a></h1>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="evenements.html">Évènements</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
+                <li><a id="thatPageOK" class="resetLinkHeader" href="index.html">Accueil</a></li>
+                <li><a class="resetLinkHeader" href="evenements.html">Évènements</a></li>
+                <li><a class="resetLinkHeader" href="contacts.html">Contacts</a></li>
             </ul>
         </nav>
     </header>
     <!-- FIN DU HEADER -->
     <!-- DEBUT DU MAIN -->
     <main>
-        <div>
+        <article>
             <h2>Vous manquez d'argent ?</h2>
-            <article>
-                <img src="../images/argent-min.jpg" alt="Photo d'une main qui mets une pièce dans une tirelire">
-                <p>Venez à <strong>l'épicerie solidaire d'Agen</strong> ! Situé au <a href="#googleMaps">717 avenue de gaillard.</a></p>
-            </article>
-        </div>
-        <div>
+            <img src="../images/argent-min.jpg" alt="Photo d'une main qui mets une pièce dans une tirelire">
+            <p>Venez à <strong>l'épicerie solidaire d'Agen</strong> ! Situé au <a href="#googleMaps">717 avenue de gaillard.</a></p>
+        </article>
+        <article>
             <h2>Que proposons-nous ?</h2>
-            <article>
-                <img src="../images/fruits-et-legumes-min.jpg" alt="Fruits et légumes sur un étalage">
-                <p>Suivants les arrivages, vous trouverez des <strong>produits frais</strong> : fruits et légumes de saisons, yaourts, viandes, poissons, oeufs, des plats préparés. <br>
-                <br>
-                Des <strong>produits secs</strong> : conserves, chocolat, pains, céréales, lait, huile, pâtes, riz, boissons, produits pour bébé (couches, lait), miel...<br>
-                <br>
-                Vous trouverez aussi du parfum, des produits cosmétiques, et plein de vêtements de saison (oui oui, nous parlons bien de vêtements et non de fruits et légumes cette fois).</p>
-            </article>
-        </div>
-        <div>
+            <img src="../images/fruits-et-legumes-min.jpg" alt="Fruits et légumes sur un étalage">
+            <p>Suivants les arrivages, vous trouverez des <strong>produits frais</strong> : fruits et légumes de saisons, yaourts, viandes, poissons, oeufs, des plats préparés. <br>
+            <br>
+            Des <strong>produits secs</strong> : conserves, chocolat, pains, céréales, lait, huile, pâtes, riz, boissons, produits pour bébé (couches, lait), miel...<br>
+            <br>
+            Vous trouverez aussi du parfum, des produits cosmétiques, et plein de vêtements de saison (oui oui, nous parlons bien de vêtements et non de fruits et légumes cette fois).</p>
+        </article>
+        <article>
             <h2>Quand êtes-vous ouvert ? 🕗 <br>
             Pourquoi irai-je chez vous ?</h2>
-            <article>
-                <p>Nous sommes ouvert tous les jours de 09h00 à 12h00 sauf le dimanche. <br>
-                <br>
-                Toute notre équipe vous accueillera avec le sourire, dans une ambiance chaleureuse.</p>
-            </article>
-        </div>
-        <div>
+            <p>Nous sommes ouvert tous les jours de 09h00 à 12h00 sauf le dimanche. <br>
+            <br>
+            Toute notre équipe vous accueillera avec le sourire, dans une ambiance chaleureuse.</p>
+        </article>
+        <article>
             <h2>Je souhaite aider les familles ukrainiennes mais je ne sais pas comment faire ?</h2>
-            <article>
-                <p>Nous sommes engagé avec la mairie pour aider les familles ukrainiennes. <br>
-                Si vous souhaitez déposer des vêtements en bon état, nous les récupérons et les redistribuerons. <br>
-                <br>
-                Nous vous remercions pour votre générosité ! 😀 👍🏻 </p>
-            </article>
-        </div>
+            <p>Nous sommes engagé avec la mairie pour aider les familles ukrainiennes. <br>
+            Si vous souhaitez déposer des vêtements en bon état, nous les récupérons et les redistribuerons. <br>
+            <br>
+            Nous vous remercions pour votre générosité ! 😀 👍🏻 </p>
+        </article>
     </main>
     <!-- DEBUT DU MAIN -->
     <!-- DEBUT DU FOOTER -->
     <footer>
         <h3 id="googleMaps">Où nous trouver :</h3>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.5538580964344!2d0.6253828156446436!3d44.21625427910603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12abb2e5a4309807%3A0x6041aa00a3829028!2s717%20Av.%20de%20Gaillard%2C%2047000%20Agen!5e0!3m2!1sfr!2sfr!4v1655469564880!5m2!1sfr!2sfr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2859.5538580964344!2d0.6253828156446436!3d44.21625427910603!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12abb2e5a4309807%3A0x6041aa00a3829028!2s717%20Av.%20de%20Gaillard%2C%2047000%20Agen!5e0!3m2!1sfr!2sfr!4v1655469564880!5m2!1sfr!2sfr" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <nav>
             <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="evenements.html">Évènements</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
+                <li><a class="resetLinkFooter" href="index.html">Accueil</a></li>
+                <li><a class="resetLinkFooter" href="evenements.html">Évènements</a></li>
+                <li><a class="resetLinkFooter" href="contacts.html">Contacts</a></li>
             </ul>
         </nav>
         <p>Copyright 2022. Tous droits réservés</p>

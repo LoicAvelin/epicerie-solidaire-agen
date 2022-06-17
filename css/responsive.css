@@ -4,35 +4,33 @@
         font-size: 14px;
     }
     header {
-        flex-direction: row;
         align-items: center;
+        flex-direction: row;
     }
     iframe {
         height: 600px;
     }
 }
-
 @media screen and (min-width: 700px) and (orientation: landscape) {
     main {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    main > div {
-        margin: 0.4rem;
-        padding: 0.4rem;
-        flex: 1 1 350px; 
+    main > article {
         border: solid 0.15rem var(--primary);
         border-radius: 6px;
+        flex: 1 1 350px; 
+        margin: 0.4rem;
+        padding: 0.4rem;
     }
 }
-
 /* POUR LES ORDINATEURS */
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1030px) {
     :root {
         font-size: 16px;
     }
-    main > div {
+    main > article {
         flex: 1 1 500px;
     }
 }
