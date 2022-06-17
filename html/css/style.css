@@ -1,0 +1,26 @@
+/* Récupération de la police */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* Mise en place de la taille de la police pour la vue téléphone mobile et des variables pour les couleurs */
+:root {
+    font-size: 14px;
+    --primary: #3F681C; 
+    --secondary: #FFBB00;
+    --thirdly: #FB6542; 
+    --fourthly: #375E97;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    background-color: var(--primary);
+}
+h1 {
+    color: var(--secondary);
+}
+
+ul {
+    list-style-type: none;
+}
