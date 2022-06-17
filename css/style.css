@@ -3,7 +3,7 @@
 
 /* Mise en place de la taille de la police pour la vue téléphone mobile et des variables pour les couleurs */
 :root {
-    font-size: 14px;
+    font-size: 12px;
     --primary: #3F681C; 
     --secondary: #FFBB00;
     --thirdly: #FB6542; 
@@ -14,13 +14,46 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+/* Mise en forme de la partie header des pages */
 header {
-    background-color: var(--primary);
-}
-h1 {
-    color: var(--secondary);
+    background-color: var(--fourthly);
+    display: flex;
+    flex-direction: column;
 }
 
 ul {
+    display: flex;
+}
+
+h1 {
+    margin: 1.5rem;
+    padding: 1rem;
+    color: var(--secondary);
+    text-align: center;
+    border: solid 0.4rem var(--secondary);
+    border-radius: 46%;
+}
+/* Enlever les puces de la liste */
+ul {
+    padding: 0.7rem;
     list-style-type: none;
+    justify-items: center;
+}
+/* Enlever le soulignement des liens */
+a:link {
+    text-decoration: none;
+}
+
+a {
+    color: var(--thirdly);
+}
+
+a:hover {
+    color: white;
+}
+
+li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 1rem;
 }
